@@ -9,10 +9,14 @@
         tools:context=".MainActivity">
 
     <TextView
-             android:id="@+id/mainactivity_tv"
+            android:id="@+id/mainactivity_tv"
             android:layout_width="wrap_content" android:layout_height="wrap_content"
-              android:gravity="center"/>
+            android:gravity="center"/>
     <Button
-            android:id="@+id/mainactivity_btn" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            android:id="@+id/mainactivity_post_btn" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="发布事件"/>
+    <Button
+            android:id="@+id/mainactivity_subscribe_btn" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="订阅事件"/>
 
 </LinearLayout>

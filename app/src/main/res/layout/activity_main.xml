@@ -18,5 +18,23 @@
     <Button
             android:id="@+id/mainactivity_subscribe_btn" android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="订阅事件"/>
+    <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:maxLength="20"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:hint="请输入中文名字"
+         />
+    <Button
+            android:id="@+id/button_check"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:text="匹配字符串"/>
+      <com.example.eventbuslearn.CountDownView
+              android:id="@+id/countDownView"
+              android:layout_width="wrap_content"
+                                               android:layout_height="wrap_content"/>
 
 </LinearLayout>
